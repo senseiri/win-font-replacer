@@ -1,0 +1,31 @@
+# Build output
+/dist/
+*.exe
+*.pdb
+*.obj
+*.zip
+/SHA256SUMS.txt
+
+# Portable runtime data
+WinFontReplacerData/
+WinFontReplacerIpc/
+
+# Test and diagnostic output
+/selftest-temp/
+/selftest-*.txt
+/test-result*.txt
+/path-probe-result.txt
+/metrics-original.json
+/debug.log
+
+# Local tooling
+/.tools/
+
+# Editors and OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
